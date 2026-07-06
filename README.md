@@ -1,4 +1,4 @@
-# ⚖️ Wazen | وازن
+# Wazen | وازن
 
 An Arabic-first, culturally aware conversational AI assistant that simplifies personal budgeting for Saudi individuals. Built using advanced multi-agent workflows and LangGraph to provide precise, secure, and smart financial insights.
 
@@ -6,7 +6,7 @@ An Arabic-first, culturally aware conversational AI assistant that simplifies pe
 
 ---
 
-## 🚀 Features | الميزات الأساسية
+##  Features | الميزات الأساسية
 
 - **Culturally Aware AI:** Understands Saudi financial dialects, local banking terminologies, and monthly salary cycles (e.g., 27th of each Gregorian month).
 - **Multi-Agent Architecture:** Powered by **LangGraph**, dividing tasks between dedicated agents (Data Analyst Agent, Budgeting Agent, and Advisor Agent) for maximum accuracy.
@@ -15,19 +15,18 @@ An Arabic-first, culturally aware conversational AI assistant that simplifies pe
 
 ---
 
-## 🛠️ Tech Stack | التقنيات المستخدمة
+##  Tech Stack | التقنيات المستخدمة
 
 - **Core Logic & AI Framework:** Python, LangChain, LangGraph
 - **Database & Authentication:** Supabase
 - **Environment & Dependency Management:** `uv` / `pip`
 
 ---
-## 🔄 Project Architecture | مخطط تدفق النظام الذكي
-```mermaid
-graph TD
+##  Project Architecture | مخطط تدفق النظام الذكي
+flowchart TD
     __start__([Start]) --> init
     
-    init["init Node<br>• Setup DB Candidate & Session UUIDs<br>• Load program requirements"] 
+    init["init Node<br>• Setup DB & Session UUIDs<br>• Load program requirements"] 
     --> router_node
     
     router_node{"node_router Router"}
@@ -46,10 +45,8 @@ graph TD
     
     wrap_up["Decision Support Agent<br>• Compiles overall scores<br>• Synthesizes strengths/weaknesses<br>• Generates recommendations"] 
     --> __end__([End])
-    ```
 
-
-## 📁 Repository Structure | هيكلة المستودع
+##  Repository Structure | هيكلة المستودع
 
 
 wazen/
