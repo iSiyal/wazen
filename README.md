@@ -45,7 +45,8 @@ graph TD
     -- "Interrupt boundary (Wait for last_answer)" --> evaluation
     
     wrap_up["Decision Support Agent<br>• Compiles overall scores<br>• Synthesizes strengths/weaknesses<br>• Generates recommendations"] 
-    --> __end__([End])```
+    --> __end__([End])
+    ```
 
 
 ## 📁 Repository Structure | هيكلة المستودع
