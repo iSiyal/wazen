@@ -23,6 +23,7 @@ An Arabic-first, culturally aware conversational AI assistant that simplifies pe
 
 ---
 ##  Project Architecture | مخطط تدفق النظام الذكي
+```mermaid
 flowchart TD
     __start__([Start]) --> init
     
